@@ -5,6 +5,11 @@ import '../styles/styles.scss';
 // <essentially css ++ same syntax, more features (more syntax)
 // .sass < white heavy, a lot like payton
 
+/**
+ * @function App
+ * @return three converters 
+ */
+
 function App() {
     return (
         <div className='App'>
