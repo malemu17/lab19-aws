@@ -7,7 +7,7 @@ import '../styles/styles.scss';
 
 /**
  * @function App
- * @return three converters 
+ * @return three types of converters 
  */
 
 function App() {
