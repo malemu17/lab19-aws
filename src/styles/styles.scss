@@ -55,7 +55,7 @@ h4 {
   }
   .mid-label {
     color:$theme-color-alt;
-    
+    @include padContainer(1px auto);
   }
 
 }
