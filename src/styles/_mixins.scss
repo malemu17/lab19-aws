@@ -1,0 +1,56 @@
+
+@mixin column-center() {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin  padBoxes($spacing) {
+  padding: $spacing;
+  margin: $spacing auto;
+  
+}
+
+@mixin center-children {
+  display:-ms-inline-flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin border-radius($size){
+    -moz-border-radius: $size;
+    -webkit-border-radius: $size;
+    border-radius: $size;
+}
+
+@mixin highlight($theme-color){
+  color: blue;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid rgb(202, 197, 197);
+}
+
+
+//Default value 12 - can be customized to fit project
+@mixin font-size($sizeValue: 12 ){
+	font-size: $sizeValue + px; //fallback for old browsers
+	font-size: (0.0625 * $sizeValue) + rem;
+
+}
+
+//Adds line-height in rem & px
+//Value passed should be the expected px size
+//Default value 20 - can be customized to fit project
+@mixin line-height($heightValue: 20 ){
+	line-height: $heightValue + px; //fallback for old browsers
+	line-height: (0.0625 * $heightValue) + rem;
+}
+
+@mixin rhythm($sizeValue: 12, $heightValue: 20) {
+	@include font-size($sizeValue);
+	@include line-height($heightValue);
+}
+
+
+
+
