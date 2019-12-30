@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Converter correctly renders Snapshot test 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="converter"
+  >
+    <h4
+      className="converter-heading"
+    >
+      Converting 
+      1
+       to/from 
+      1
+    </h4>
+    <label
+      className="x-label"
+    >
+      <input
+        id="x"
+        onChange={[Function]}
+        step="any"
+        type="number"
+        value=""
+      />
+      1
+    </label>
+    <span
+      className="mid-label"
+    >
+       is equal to 
+    </span>
+    <label
+      className="y-label"
+    >
+      <input
+        id="y"
+        onChange={[Function]}
+        step="any"
+        type="number"
+        value=""
+      />
+      1
+    </label>
+  </div>
+</div>
+`;

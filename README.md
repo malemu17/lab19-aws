@@ -3,7 +3,7 @@
 
 ##### Author: Meron
 ###### Links and Resources
-* [Submission-PR]()
+* [Submission-PR](https://github.com/malemu17/lab19-aws/pull/1)
 * [AWS S3](http://lab-19-first.s3-website-us-east-1.amazonaws.com/)
 * [AWS Amplify](https://master.d3jrske69xscwu.amplifyapp.com/)
 * [Netlify](https://elastic-blackwell-d6ccac.netlify.com/)
