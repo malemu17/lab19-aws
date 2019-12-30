@@ -3,7 +3,9 @@ import '../styles/styles.scss';
 
 
 /**
- * 
+ * class represent converter
+ * @constructor  props 
+ * set state for x, y and rate fields 
  */
 
 class Converter extends React.Component {
@@ -15,10 +17,22 @@ class Converter extends React.Component {
             rate: this.props.rate ? this.props.rate : 1,
         };
     }
-
+/**
+ * this function round the decimal numbers 
+ * @param {int} num 
+ * @return rounded number to the nearest value 
+ */
     roundIt(num) {
         return Math.round(num * 1000) / 1000;
     }
+
+    /**
+     * this function handles state 
+     * @param {object} e 
+     * @return  set empty/null if not object target value
+     * @return  set value and roundvalue to  x or y  respectively 
+     
+     */
 
     handleChange(e) {
         if (!e.target.value) {
@@ -39,6 +53,12 @@ class Converter extends React.Component {
             });
     }
 
+    /**
+     * render component converter , and all elemnts inside 
+     * x & y labels
+     * div element 
+     * 
+     */
     render() {
         let xLabel = this.props.xLabel ? this.props.xLabel : '1';
         let yLabel = this.props.yLabel || '1';
