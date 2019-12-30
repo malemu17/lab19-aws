@@ -7,7 +7,7 @@
 * [AWS S3](http://lab-19-first.s3-website-us-east-1.amazonaws.com/)
 * [AWS Amplify](https://master.d3jrske69xscwu.amplifyapp.com/)
 * [Netlify](https://elastic-blackwell-d6ccac.netlify.com/)
-* [travis-ci](https://travis-ci.com/meron-401n14/lab-19/builds/141515822)
+* [travis-ci](https://travis-ci.com/malemu17/lab19-aws/builds/142632384)
 
 ###### Documentation
 
