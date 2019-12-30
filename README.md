@@ -3,11 +3,11 @@
 
 ##### Author: Meron
 ###### Links and Resources
-* [Submission-PR](https://github.com/meron-401n14/lab-19/pull/1)
-* [travis-ci](https://travis-ci.com/meron-401n14/lab-19/builds/141515822)
+* [Submission-PR]()
 * [AWS S3](http://lab-19-first.s3-website-us-east-1.amazonaws.com/)
 * [AWS Amplify](https://master.d3jrske69xscwu.amplifyapp.com/)
-* [Netlify]()
+* [Netlify](https://elastic-blackwell-d6ccac.netlify.com/)
+* [travis-ci](https://travis-ci.com/meron-401n14/lab-19/builds/141515822)
 
 ###### Documentation
 
